@@ -7,7 +7,11 @@ __pycache__/
 *$py.class
 
 # Bases de datos, dejamos fichero python de tests
-*.sqlite3
+#*.sqlite3
+#*.db
+
+# Logs y documentacion extra
+logs/
 
 # Documentos resultantes, aunque sean de test
 *.docx

@@ -12,15 +12,14 @@ cv_app/
 │   │           └── test_config.py
 │   │       └── __pycache__/
 │   ├── database/
+│   │           └── sample_data.json
+│   │       ├── configuracion/
+│   │   │               └── init_db.py
+│   │       └── notas/
+│   │   │               └── sql.txt
 │   ├── logs/
 │   └── src/
 │   │           ├── __init__.py
 │   │           └── main.py
-├── database/
-│       └── sample_data.json
-│   ├── configuracion/
-│   │           └── init_db.py
-│   └── notas/
-│   │           └── sql.txt
 ├── envCV/
 └── tests/
