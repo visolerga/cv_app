@@ -1,0 +1,72 @@
+{
+    "contact": {
+        "name": "Juan Pérez",
+        "email": "juan.perez@example.com",
+        "phone": "+123456789",
+        "address": "Calle Falsa 123, Ciudad, País"
+    },
+    "social_media": {
+        "linkedin": "linkedin.com/in/juanperez",
+        "github": "github.com/juanperez"
+    },
+    "summary": "Soy un profesional en tecnología de la información con más de 5 años de experiencia en desarrollo de software. Busco un puesto desafiante que me permita contribuir y seguir aprendiendo.",
+    "skills": [
+        {
+            "name": "Python",
+            "source": "Curso de Desarrollo de Python"
+        },
+        {
+            "name": "Java",
+            "source": "Trabajo en Empresa XYZ"
+        },
+        {
+            "name": "SQL",
+            "source": "Curso de Análisis de Datos"
+        },
+        {
+            "name": "JavaScript",
+            "source": "Trabajo en Empresa ABC"
+        },
+        {
+            "name": "Machine Learning",
+            "source": "Curso de Machine Learning"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Desarrollador de Software",
+            "company": "Empresa XYZ",
+            "dates": "2020 - Presente",
+            "tasks": [
+                "Desarrollo de aplicaciones web con Python y JavaScript.",
+                "Implementación de soluciones de Machine Learning para mejorar procesos internos."
+            ]
+        },
+        {
+            "title": "Desarrollador Junior",
+            "company": "Empresa ABC",
+            "dates": "2018 - 2020",
+            "tasks": [
+                "Participación en el desarrollo de software para el sector financiero.",
+                "Soporte en la integración de APIs."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Licenciatura en Ciencias de la Computación",
+            "institution": "Universidad de Ejemplo",
+            "dates": "2014 - 2018"
+        }
+    ],
+    "projects": [
+        {
+            "title": "Proyecto A",
+            "description": "Desarrollé una aplicación de gestión de tareas en Python."
+        },
+        {
+            "title": "Proyecto B",
+            "description": "Participé en un equipo de investigación sobre redes neuronales."
+        }
+    ]
+}

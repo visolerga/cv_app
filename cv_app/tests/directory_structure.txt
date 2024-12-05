@@ -1,0 +1,26 @@
+cv_app/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── .git/
+├── app/
+│   ├── config/
+│   │           ├── __init__.py
+│   │           ├── config.py
+│   │           ├── dev_config.py
+│   │           ├── prod_config.py
+│   │           └── test_config.py
+│   │       └── __pycache__/
+│   ├── database/
+│   ├── logs/
+│   └── src/
+│   │           ├── __init__.py
+│   │           └── main.py
+├── database/
+│       └── sample_data.json
+│   ├── configuracion/
+│   │           └── init_db.py
+│   └── notas/
+│   │           └── sql.txt
+├── envCV/
+└── tests/
