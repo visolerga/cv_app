@@ -1,72 +1,105 @@
 {
-    "contact": {
-        "name": "Juan Pérez",
-        "email": "juan.perez@example.com",
-        "phone": "+123456789",
-        "address": "Calle Falsa 123, Ciudad, País"
-    },
-    "social_media": {
-        "linkedin": "linkedin.com/in/juanperez",
-        "github": "github.com/juanperez"
-    },
-    "summary": "Soy un profesional en tecnología de la información con más de 5 años de experiencia en desarrollo de software. Busco un puesto desafiante que me permita contribuir y seguir aprendiendo.",
+    "users": [
+      {
+        "name": "John Doe",
+        "email": "johndoe@example.com",
+        "phone": "+1-234-567-890",
+        "address": "123 Main Street, Springfield, USA"
+      },
+      {
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "phone": "+1-987-654-321",
+        "address": "456 Elm Street, Metropolis, USA"
+      }
+    ],
+    "social_links": [
+      {
+        "user_email": "johndoe@example.com",
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/johndoe"
+      },
+      {
+        "user_email": "janesmith@example.com",
+        "platform": "GitHub",
+        "url": "https://github.com/janesmith"
+      }
+    ],
     "skills": [
-        {
-            "name": "Python",
-            "source": "Curso de Desarrollo de Python"
-        },
-        {
-            "name": "Java",
-            "source": "Trabajo en Empresa XYZ"
-        },
-        {
-            "name": "SQL",
-            "source": "Curso de Análisis de Datos"
-        },
-        {
-            "name": "JavaScript",
-            "source": "Trabajo en Empresa ABC"
-        },
-        {
-            "name": "Machine Learning",
-            "source": "Curso de Machine Learning"
-        }
+      {
+        "user_email": "johndoe@example.com",
+        "name": "Python",
+        "source_type": "job",
+        "source_id": 1
+      },
+      {
+        "user_email": "janesmith@example.com",
+        "name": "Machine Learning",
+        "source_type": "course",
+        "source_id": 2
+      }
     ],
-    "experience": [
-        {
-            "title": "Desarrollador de Software",
-            "company": "Empresa XYZ",
-            "dates": "2020 - Presente",
-            "tasks": [
-                "Desarrollo de aplicaciones web con Python y JavaScript.",
-                "Implementación de soluciones de Machine Learning para mejorar procesos internos."
-            ]
-        },
-        {
-            "title": "Desarrollador Junior",
-            "company": "Empresa ABC",
-            "dates": "2018 - 2020",
-            "tasks": [
-                "Participación en el desarrollo de software para el sector financiero.",
-                "Soporte en la integración de APIs."
-            ]
-        }
+    "jobs": [
+      {
+        "user_email": "johndoe@example.com",
+        "company": "TechCorp",
+        "role": "Software Engineer",
+        "start_date": "2020-01-01",
+        "end_date": "2023-01-01",
+        "description": "Developed and maintained web applications."
+      },
+      {
+        "user_email": "janesmith@example.com",
+        "company": "DataSolutions",
+        "role": "Data Analyst",
+        "start_date": "2018-05-01",
+        "end_date": "2022-08-01",
+        "description": "Analyzed and visualized data for business intelligence."
+      }
     ],
-    "education": [
-        {
-            "degree": "Licenciatura en Ciencias de la Computación",
-            "institution": "Universidad de Ejemplo",
-            "dates": "2014 - 2018"
-        }
+    "courses": [
+      {
+        "user_email": "johndoe@example.com",
+        "title": "Advanced Python Programming",
+        "institution": "Coursera",
+        "completion_date": "2019-12-15"
+      },
+      {
+        "user_email": "janesmith@example.com",
+        "title": "Machine Learning Specialization",
+        "institution": "Udemy",
+        "completion_date": "2021-06-30"
+      }
     ],
     "projects": [
-        {
-            "title": "Proyecto A",
-            "description": "Desarrollé una aplicación de gestión de tareas en Python."
-        },
-        {
-            "title": "Proyecto B",
-            "description": "Participé en un equipo de investigación sobre redes neuronales."
-        }
+      {
+        "user_email": "johndoe@example.com",
+        "title": "E-commerce Platform",
+        "description": "Built a scalable e-commerce platform using Flask.",
+        "url": "https://github.com/johndoe/ecommerce"
+      },
+      {
+        "user_email": "janesmith@example.com",
+        "title": "Customer Churn Analysis",
+        "description": "Developed a machine learning model to predict customer churn.",
+        "url": "https://github.com/janesmith/churn-analysis"
+      }
+    ],
+    "education": [
+      {
+        "user_email": "johndoe@example.com",
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "State University",
+        "start_date": "2015-09-01",
+        "end_date": "2019-05-15"
+      },
+      {
+        "user_email": "janesmith@example.com",
+        "degree": "Master of Data Science",
+        "institution": "Tech University",
+        "start_date": "2016-09-01",
+        "end_date": "2018-12-15"
+      }
     ]
-}
+  }
+  
