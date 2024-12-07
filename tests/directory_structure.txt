@@ -12,12 +12,30 @@ cv_app/
 │   │           └── test_config.py
 │   │       └── __pycache__/
 │   ├── database/
+│   │           ├── cv_app.db
+│   │           ├── db_utils.py
 │   │           └── sample_data.json
-│   │       ├── configuracion/
-│   │   │               └── init_db.py
-│   │       └── notas/
-│   │   │               └── sql.txt
+│   │       └── __pycache__/
 │   ├── logs/
+│   │       └── docs/
+│   │   │               └── sql.txt
+│   ├── models/
+│   │           ├── contact_model.py
+│   │           ├── course_model.py
+│   │           ├── education_model.py
+│   │           ├── job_model.py
+│   │           ├── project_model.py
+│   │           ├── skill__model.py
+│   │           └── social_link__model.py
+│   │       └── __pycache__/
+│   ├── services/
+│   │           ├── course_service.py
+│   │           ├── education_service.py
+│   │           ├── job_service.py
+│   │           ├── project_service.py
+│   │           ├── skill_service.py
+│   │           ├── social_link_service.py
+│   │           └── user_service.py
 │   └── src/
 │   │           ├── __init__.py
 │   │           └── main.py

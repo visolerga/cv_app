@@ -1,105 +1,179 @@
 {
-    "users": [
+  "users": [
       {
-        "name": "John Doe",
-        "email": "johndoe@example.com",
-        "phone": "+1-234-567-890",
-        "address": "123 Main Street, Springfield, USA"
+          "contact": {
+              "name": "John Doe",
+              "email": "john@example.com",
+              "phone": "123-456-7890",
+              "address": "123 Main St, City, Country"
+          },
+          "skills": [
+              {
+                  "skill_name": "Python",
+                  "source": "job",
+                  "source_id": 1
+              },
+              {
+                  "skill_name": "JavaScript",
+                  "source": "course",
+                  "source_id": 2
+              }
+          ],
+          "social_links": [
+              {
+                  "platform": "LinkedIn",
+                  "url": "https://linkedin.com/in/johndoe"
+              },
+              {
+                  "platform": "GitHub",
+                  "url": "https://github.com/johndoe"
+              }
+          ],
+          "jobs": [
+              {
+                  "company": "Company A",
+                  "role": "Software Engineer",
+                  "start_date": "2020-01-01",
+                  "end_date": "2021-01-01",
+                  "description": "Developed applications."
+              }
+          ],
+          "courses": [
+              {
+                  "title": "Python Programming",
+                  "institution": "Udemy",
+                  "completion_date": "2020-06-01"
+              }
+          ],
+          "projects": [
+              {
+                  "title": "Project A",
+                  "description": "Description of Project A.",
+                  "url": "https://github.com/johndoe/project-a"
+              }
+          ],
+          "education": [
+              {
+                  "degree": "BSc in Computer Science",
+                  "institution": "University XYZ",
+                  "start_date": "2015-09-01",
+                  "end_date": "2019-06-01"
+              }
+          ]
       },
       {
-        "name": "Jane Smith",
-        "email": "janesmith@example.com",
-        "phone": "+1-987-654-321",
-        "address": "456 Elm Street, Metropolis, USA"
-      }
-    ],
-    "social_links": [
-      {
-        "user_email": "johndoe@example.com",
-        "platform": "LinkedIn",
-        "url": "https://linkedin.com/in/johndoe"
+          "contact": {
+              "name": "Jane Smith",
+              "email": "jane@example.com",
+              "phone": "987-654-3210",
+              "address": "456 Elm St, City, Country"
+          },
+          "skills": [
+              {
+                  "skill_name": "Java",
+                  "source": "job",
+                  "source_id": 1
+              },
+              {
+                  "skill_name": "SQL",
+                  "source": "course",
+                  "source_id": 2
+              }
+          ],
+          "social_links": [
+              {
+                  "platform": "LinkedIn",
+                  "url": "https://linkedin.com/in/janesmith"
+              }
+          ],
+          "jobs": [
+              {
+                  "company": "Company B",
+                  "role": "Backend Developer",
+                  "start_date": "2019-01-01",
+                  "end_date": "2022-01-01",
+                  "description": "Worked on server-side applications."
+              }
+          ],
+          "courses": [
+              {
+                  "title": "SQL for Data Science",
+                  "institution": "Coursera",
+                  "completion_date": "2021-01-01"
+              }
+          ],
+          "projects": [
+              {
+                  "title": "Project B",
+                  "description": "Description of Project B.",
+                  "url": "https://github.com/janesmith/project-b"
+              }
+          ],
+          "education": [
+              {
+                  "degree": "BSc in Information Technology",
+                  "institution": "University ABC",
+                  "start_date": "2014-09-01",
+                  "end_date": "2018-06-01"
+              }
+          ]
       },
       {
-        "user_email": "janesmith@example.com",
-        "platform": "GitHub",
-        "url": "https://github.com/janesmith"
+          "contact": {
+              "name": "Alice Johnson",
+              "email": "alice@example.com",
+              "phone": "555-123-4567",
+              "address": "789 Oak St, City, Country"
+          },
+          "skills": [
+              {
+                  "skill_name": "HTML",
+                  "source": "course",
+                  "source_id": 1
+              },
+              {
+                  "skill_name": "CSS",
+                  "source": "course",
+                  "source_id": 2
+              }
+          ],
+          "social_links": [
+              {
+                  "platform": "GitHub",
+                  "url": "https://github.com/alicejohnson"
+              }
+          ],
+          "jobs": [
+              {
+                  "company": "Company C",
+                  "role": "Web Developer",
+                  "start_date": "2021-02-01",
+                  "end_date": "2023-02-01",
+                  "description": "Created and maintained websites."
+              }
+          ],
+          "courses": [
+              {
+                  "title": "Web Development Bootcamp",
+                  "institution": "Udemy",
+                  "completion_date": "2021-01-01"
+              }
+          ],
+          "projects": [
+              {
+                  "title": "Project C",
+                  "description": "Description of Project C.",
+                  "url": "https://github.com/alicejohnson/project-c"
+              }
+          ],
+          "education": [
+              {
+                  "degree": "BSc in Web Design",
+                  "institution": "College DEF",
+                  "start_date": "2016-09-01",
+                  "end_date": "2020-06-01"
+              }
+          ]
       }
-    ],
-    "skills": [
-      {
-        "user_email": "johndoe@example.com",
-        "name": "Python",
-        "source_type": "job",
-        "source_id": 1
-      },
-      {
-        "user_email": "janesmith@example.com",
-        "name": "Machine Learning",
-        "source_type": "course",
-        "source_id": 2
-      }
-    ],
-    "jobs": [
-      {
-        "user_email": "johndoe@example.com",
-        "company": "TechCorp",
-        "role": "Software Engineer",
-        "start_date": "2020-01-01",
-        "end_date": "2023-01-01",
-        "description": "Developed and maintained web applications."
-      },
-      {
-        "user_email": "janesmith@example.com",
-        "company": "DataSolutions",
-        "role": "Data Analyst",
-        "start_date": "2018-05-01",
-        "end_date": "2022-08-01",
-        "description": "Analyzed and visualized data for business intelligence."
-      }
-    ],
-    "courses": [
-      {
-        "user_email": "johndoe@example.com",
-        "title": "Advanced Python Programming",
-        "institution": "Coursera",
-        "completion_date": "2019-12-15"
-      },
-      {
-        "user_email": "janesmith@example.com",
-        "title": "Machine Learning Specialization",
-        "institution": "Udemy",
-        "completion_date": "2021-06-30"
-      }
-    ],
-    "projects": [
-      {
-        "user_email": "johndoe@example.com",
-        "title": "E-commerce Platform",
-        "description": "Built a scalable e-commerce platform using Flask.",
-        "url": "https://github.com/johndoe/ecommerce"
-      },
-      {
-        "user_email": "janesmith@example.com",
-        "title": "Customer Churn Analysis",
-        "description": "Developed a machine learning model to predict customer churn.",
-        "url": "https://github.com/janesmith/churn-analysis"
-      }
-    ],
-    "education": [
-      {
-        "user_email": "johndoe@example.com",
-        "degree": "Bachelor of Science in Computer Science",
-        "institution": "State University",
-        "start_date": "2015-09-01",
-        "end_date": "2019-05-15"
-      },
-      {
-        "user_email": "janesmith@example.com",
-        "degree": "Master of Data Science",
-        "institution": "Tech University",
-        "start_date": "2016-09-01",
-        "end_date": "2018-12-15"
-      }
-    ]
-  }
-  
+  ]
+}
