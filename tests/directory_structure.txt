@@ -12,7 +12,6 @@ cv_app/
 │   │           └── test_config.py
 │   │       └── __pycache__/
 │   ├── database/
-│   │           ├── cv_app.db
 │   │           ├── db_utils.py
 │   │           └── sample_data.json
 │   │       └── __pycache__/
@@ -20,15 +19,18 @@ cv_app/
 │   │       └── docs/
 │   │   │               └── sql.txt
 │   ├── models/
+│   │           ├── __init__.py
 │   │           ├── contact_model.py
 │   │           ├── course_model.py
 │   │           ├── education_model.py
 │   │           ├── job_model.py
 │   │           ├── project_model.py
-│   │           ├── skill__model.py
-│   │           └── social_link__model.py
+│   │           ├── skill_model.py
+│   │           └── social_link_model.py
 │   │       └── __pycache__/
 │   ├── services/
+│   │           ├── __init__.py
+│   │           ├── contact_service.py
 │   │           ├── course_service.py
 │   │           ├── education_service.py
 │   │           ├── job_service.py
@@ -36,8 +38,10 @@ cv_app/
 │   │           ├── skill_service.py
 │   │           ├── social_link_service.py
 │   │           └── user_service.py
+│   │       └── __pycache__/
 │   └── src/
 │   │           ├── __init__.py
-│   │           └── main.py
+│   │           ├── main.py
+│   │           └── test.py
 ├── envCV/
 └── tests/

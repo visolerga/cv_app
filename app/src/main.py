@@ -2,9 +2,9 @@ import os
 import sys
 
 # Ensure the base directory is in the Python path
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-if base_dir not in sys.path:
-    sys.path.append(base_dir)
+app_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+if app_dir not in sys.path:
+    sys.path.append(app_dir)
 
 # Import configurations
 try:
@@ -30,7 +30,8 @@ except ModuleNotFoundError as e:
 
 # Import user service
 try:
-    from app.services.user_service import get_full_user_data
+    # from app.services.user_service import get_full_user_data
+    from services import get_full_user_data
     print("User service imported successfully.")
 except ModuleNotFoundError as e:
     print(f"Error importing user service: {e}")

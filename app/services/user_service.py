@@ -8,7 +8,7 @@
 # from services.skill_service import get_skills_by_user_id
 # from services.job_service import get_jobs_by_user_id
 
-from ..models.contact_model import Contact
+from models.contact_model import Contact
 from .contact_service import get_contact_by_id
 from .skill_service import get_skills_by_user_id
 from .job_service import get_jobs_by_user_id
